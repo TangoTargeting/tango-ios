@@ -1,0 +1,6 @@
+framework module Tango {
+  umbrella header "Tango-umbrella.h"
+
+  export *
+  module * { export * }
+}

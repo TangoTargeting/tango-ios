@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Tango_Example' do
+  pod 'Tango', :path => '../'
+
+  target 'Tango_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

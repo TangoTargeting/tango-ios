@@ -1,0 +1,19 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Tango (1.0.7):
+    - Alamofire (~> 4.5)
+
+DEPENDENCIES:
+  - Tango (from `../`)
+
+EXTERNAL SOURCES:
+  Tango:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Tango: b54423f76efc20f535c975f885038e286d53c3a3
+
+PODFILE CHECKSUM: ed31e889bdb76708127fa5eb1dd145f630c32f90
+
+COCOAPODS: 1.2.1

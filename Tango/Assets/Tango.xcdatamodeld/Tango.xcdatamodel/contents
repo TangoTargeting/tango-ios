@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13240" systemVersion="" minimumToolsVersion="Xcode 8.0" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Campaign" representedClassName=".Campaign" syncable="YES">
+        <attribute name="campaignID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="trigger" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="content" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignContent" inverseName="campaign" inverseEntity="CampaignContent" syncable="YES"/>
+        <relationship name="limits" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignLimits" inverseName="campaign" inverseEntity="CampaignLimits" syncable="YES"/>
+        <relationship name="scheduler" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignScheduler" inverseName="campaign" inverseEntity="CampaignScheduler" syncable="YES"/>
+        <relationship name="specifics" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignSpecifics" inverseName="campaign" inverseEntity="CampaignSpecifics" syncable="YES"/>
+        <relationship name="stats" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignStats" inverseName="campaign" inverseEntity="CampaignStats" syncable="YES"/>
+        <relationship name="targets" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignTargets" inverseName="campaign" inverseEntity="CampaignTargets" syncable="YES"/>
+        <relationship name="totalEvents" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignTotalEvents" inverseName="campaign" inverseEntity="CampaignTotalEvents" syncable="YES"/>
+    </entity>
+    <entity name="CampaignAction" representedClassName=".CampaignAction" syncable="YES">
+        <attribute name="backgroundColorHexARGB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="textColorHexARGB" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uri" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="primaryContent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignContent" inverseName="primaryAction" inverseEntity="CampaignContent" syncable="YES"/>
+        <relationship name="secondaryContent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignContent" inverseName="secondaryAction" inverseEntity="CampaignContent" syncable="YES"/>
+    </entity>
+    <entity name="CampaignContent" representedClassName=".CampaignContent" syncable="YES">
+        <attribute name="body" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="campaign" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Campaign" inverseName="content" inverseEntity="Campaign" syncable="YES"/>
+        <relationship name="media" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignMedia" inverseName="content" inverseEntity="CampaignMedia" syncable="YES"/>
+        <relationship name="primaryAction" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignAction" inverseName="primaryContent" inverseEntity="CampaignAction" syncable="YES"/>
+        <relationship name="secondaryAction" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignAction" inverseName="secondaryContent" inverseEntity="CampaignAction" syncable="YES"/>
+    </entity>
+    <entity name="CampaignDate" representedClassName=".CampaignDate" syncable="YES">
+        <attribute name="dayOfYear" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="hour" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="minute" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="schedulerEndDate" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignScheduler" inverseName="endDate" inverseEntity="CampaignScheduler" syncable="YES"/>
+        <relationship name="schedulerStartDate" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignScheduler" inverseName="startDate" inverseEntity="CampaignScheduler" syncable="YES"/>
+    </entity>
+    <entity name="CampaignDay" representedClassName=".CampaignDay" syncable="YES">
+        <attribute name="day" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="monthdays" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignSchedulerRepeat" inverseName="monthdays" inverseEntity="CampaignSchedulerRepeat" syncable="YES"/>
+        <relationship name="weekdays" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignSchedulerRepeat" inverseName="weekdays" inverseEntity="CampaignSchedulerRepeat" syncable="YES"/>
+    </entity>
+    <entity name="CampaignEvent" representedClassName=".CampaignEvent" syncable="YES">
+        <attribute name="eventUUID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timestamp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="campaignStats" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignStats" inverseName="events" inverseEntity="CampaignStats" syncable="YES"/>
+    </entity>
+    <entity name="CampaignLimits" representedClassName=".CampaignLimits" syncable="YES">
+        <attribute name="beginTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="endTime" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="maxClicksPerDevice" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="maxDisplayPerDevice" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="campaign" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Campaign" inverseName="limits" inverseEntity="Campaign" syncable="YES"/>
+    </entity>
+    <entity name="CampaignMedia" representedClassName=".CampaignMedia" syncable="YES">
+        <attribute name="imageData" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="content" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignContent" inverseName="media" inverseEntity="CampaignContent" syncable="YES"/>
+        <relationship name="size" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignMediaSize" inverseName="mediaSize" inverseEntity="CampaignMediaSize" syncable="YES"/>
+    </entity>
+    <entity name="CampaignMediaSize" representedClassName=".CampaignMediaSize" syncable="YES">
+        <attribute name="height" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sizeID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="width" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="mediaSize" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignMedia" inverseName="size" inverseEntity="CampaignMedia" syncable="YES"/>
+    </entity>
+    <entity name="CampaignScheduler" representedClassName=".CampaignScheduler" syncable="YES">
+        <attribute name="useLocalTime" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="campaign" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Campaign" inverseName="scheduler" inverseEntity="Campaign" syncable="YES"/>
+        <relationship name="endDate" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignDate" inverseName="schedulerEndDate" inverseEntity="CampaignDate" syncable="YES"/>
+        <relationship name="repeatInterval" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignSchedulerRepeat" inverseName="scheduler" inverseEntity="CampaignSchedulerRepeat" syncable="YES"/>
+        <relationship name="specificDates" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignSchedulerSpecificDates" inverseName="scheduler" inverseEntity="CampaignSchedulerSpecificDates" syncable="YES"/>
+        <relationship name="startDate" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignDate" inverseName="schedulerStartDate" inverseEntity="CampaignDate" syncable="YES"/>
+    </entity>
+    <entity name="CampaignSchedulerRepeat" representedClassName=".CampaignSchedulerRepeat" syncable="YES">
+        <attribute name="fromMinute" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="toMinute" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="monthdays" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CampaignDay" inverseName="monthdays" inverseEntity="CampaignDay" syncable="YES"/>
+        <relationship name="scheduler" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignScheduler" inverseName="repeatInterval" inverseEntity="CampaignScheduler" syncable="YES"/>
+        <relationship name="weekdays" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CampaignDay" inverseName="weekdays" inverseEntity="CampaignDay" syncable="YES"/>
+    </entity>
+    <entity name="CampaignSchedulerSpecificDates" representedClassName=".CampaignSchedulerSpecificDates" syncable="YES">
+        <relationship name="scheduler" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignScheduler" inverseName="specificDates" inverseEntity="CampaignScheduler" syncable="YES"/>
+        <relationship name="specificDates" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CampaignSpecificDate" inverseName="schedulerSpecificDates" inverseEntity="CampaignSpecificDate" syncable="YES"/>
+    </entity>
+    <entity name="CampaignSpecificDate" representedClassName=".CampaignSpecificDate" syncable="YES">
+        <attribute name="dayOfYear" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fromMinute" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="toMinute" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="schedulerSpecificDates" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignSchedulerSpecificDates" inverseName="specificDates" inverseEntity="CampaignSchedulerSpecificDates" syncable="YES"/>
+    </entity>
+    <entity name="CampaignSpecifics" representedClassName=".CampaignSpecifics" syncable="YES">
+        <attribute name="displayIntervalSec" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="minimumDisplayIntervalSec" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="requireAllExcludedKeywords" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="requireAllIncludedKeywords" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="secondsToDisplay" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="campaign" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Campaign" inverseName="specifics" inverseEntity="Campaign" syncable="YES"/>
+        <relationship name="excludeKeywords" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CampaignSpecificsKeywords" inverseName="campaignSpecificsExcludedKeywords" inverseEntity="CampaignSpecificsKeywords" syncable="YES"/>
+        <relationship name="includedKeywords" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CampaignSpecificsKeywords" inverseName="campaignSpecificsIncludedKeiwords" inverseEntity="CampaignSpecificsKeywords" syncable="YES"/>
+    </entity>
+    <entity name="CampaignSpecificsKeywords" representedClassName=".CampaignSpecificsKeywords" syncable="YES">
+        <attribute name="keyword" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="campaignSpecificsExcludedKeywords" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignSpecifics" inverseName="excludeKeywords" inverseEntity="CampaignSpecifics" syncable="YES"/>
+        <relationship name="campaignSpecificsIncludedKeiwords" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignSpecifics" inverseName="includedKeywords" inverseEntity="CampaignSpecifics" syncable="YES"/>
+    </entity>
+    <entity name="CampaignStats" representedClassName=".CampaignStats" syncable="YES">
+        <relationship name="campaign" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Campaign" inverseName="stats" inverseEntity="Campaign" syncable="YES"/>
+        <relationship name="events" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CampaignEvent" inverseName="campaignStats" inverseEntity="CampaignEvent" syncable="YES"/>
+    </entity>
+    <entity name="CampaignTargets" representedClassName=".CampaignTargets" syncable="YES">
+        <relationship name="campaign" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Campaign" inverseName="targets" inverseEntity="Campaign" syncable="YES"/>
+        <relationship name="locations" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CampaignTargetsLocations" inverseName="campaignTarget" inverseEntity="CampaignTargetsLocations" syncable="YES"/>
+    </entity>
+    <entity name="CampaignTargetsLocations" representedClassName=".CampaignTargetsLocations" syncable="YES">
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="locationID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="meters" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="onEnter" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="onExit" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="onStay" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="campaignTarget" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CampaignTargets" inverseName="locations" inverseEntity="CampaignTargets" syncable="YES"/>
+    </entity>
+    <entity name="CampaignTotalEvents" representedClassName=".CampaignTotalEvents" syncable="YES">
+        <attribute name="totalClicks" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="totalClose" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="totalDisplay" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="campaign" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Campaign" inverseName="totalEvents" inverseEntity="Campaign" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Campaign" positionX="-1593" positionY="-693" width="128" height="240"/>
+        <element name="CampaignAction" positionX="-1413" positionY="-402" width="128" height="150"/>
+        <element name="CampaignContent" positionX="-2288" positionY="-360" width="128" height="165"/>
+        <element name="CampaignDate" positionX="-1854" positionY="-99" width="128" height="135"/>
+        <element name="CampaignDay" positionX="-1701" positionY="-360" width="128" height="90"/>
+        <element name="CampaignEvent" positionX="-1899" positionY="-684" width="128" height="105"/>
+        <element name="CampaignLimits" positionX="-2340" positionY="-540" width="128" height="120"/>
+        <element name="CampaignMedia" positionX="-1775" positionY="-657" width="128" height="120"/>
+        <element name="CampaignMediaSize" positionX="-1415" positionY="-648" width="128" height="105"/>
+        <element name="CampaignScheduler" positionX="-1307" positionY="-414" width="128" height="135"/>
+        <element name="CampaignSchedulerRepeat" positionX="-1269" positionY="-264" width="128" height="120"/>
+        <element name="CampaignSchedulerSpecificDates" positionX="-1872" positionY="-441" width="128" height="75"/>
+        <element name="CampaignSpecificDate" positionX="-2124" positionY="-531" width="128" height="120"/>
+        <element name="CampaignSpecifics" positionX="-1262" positionY="-189" width="128" height="165"/>
+        <element name="CampaignSpecificsKeywords" positionX="-2124" positionY="-90" width="128" height="90"/>
+        <element name="CampaignStats" positionX="-2133" positionY="-675" width="128" height="75"/>
+        <element name="CampaignTargets" positionX="-2070" positionY="-378" width="128" height="75"/>
+        <element name="CampaignTargetsLocations" positionX="-1512" positionY="-93" width="128" height="165"/>
+        <element name="CampaignTotalEvents" positionX="-1332" positionY="-519" width="128" height="105"/>
+    </elements>
+</model>
