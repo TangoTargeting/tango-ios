@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51CE09721F974EA600188AAB /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CE09711F974EA600188AAB /* NotificationService.swift */; };
+		51CE09761F974EA600188AAB /* Tango_Example_Rich_Notification.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 51CE096F1F974EA600188AAB /* Tango_Example_Rich_Notification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -15,9 +17,17 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		BBFA46A44BC29C721C70EB3D /* Pods_Tango_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83293E47E00B8ADEE14D38DE /* Pods_Tango_Tests.framework */; };
 		C746F55C6C04B27FBF5E399C /* Pods_Tango_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBDF3185FADC0EBD7B2DA28 /* Pods_Tango_Example.framework */; };
+		DE04A404DC6AD6734AD841CC /* Pods_Tango_Example_Rich_Notification.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B895F25A41253AF23373A6CA /* Pods_Tango_Example_Rich_Notification.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		51CE09741F974EA600188AAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51CE096E1F974EA600188AAB;
+			remoteInfo = "Tango-Example-Rich-Notification";
+		};
 		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
@@ -27,10 +37,27 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		51CE097A1F974EA600188AAB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				51CE09761F974EA600188AAB /* Tango_Example_Rich_Notification.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0C0715D5A1A62AD8538BC067 /* Pods-Tango_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tango_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tango_Example/Pods-Tango_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2DFAD55EEF3FF508258A16F0 /* Pods-Tango_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tango_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tango_Tests/Pods-Tango_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F484A76CC19B3E125BFD0AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		51CE096F1F974EA600188AAB /* Tango_Example_Rich_Notification.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Tango_Example_Rich_Notification.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		51CE09711F974EA600188AAB /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		51CE09731F974EA600188AAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Tango_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tango_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,12 +71,23 @@
 		6214442DAFC759080D4441B4 /* Pods-Tango_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tango_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tango_Tests/Pods-Tango_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		83293E47E00B8ADEE14D38DE /* Pods_Tango_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tango_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBDF3185FADC0EBD7B2DA28 /* Pods_Tango_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tango_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		955D79A9B35E16C9296AECCE /* Pods-Tango_Example_Rich_Notification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tango_Example_Rich_Notification.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tango_Example_Rich_Notification/Pods-Tango_Example_Rich_Notification.debug.xcconfig"; sourceTree = "<group>"; };
 		A6E0E3FAA8655E783EE9012C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B895F25A41253AF23373A6CA /* Pods_Tango_Example_Rich_Notification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tango_Example_Rich_Notification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DDF70E12F8C6C03CCBF3FB /* Pods-Tango_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tango_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tango_Example/Pods-Tango_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C90D7E616D9A8FE14DD090C7 /* Pods-Tango_Example_Rich_Notification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tango_Example_Rich_Notification.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tango_Example_Rich_Notification/Pods-Tango_Example_Rich_Notification.release.xcconfig"; sourceTree = "<group>"; };
 		D4EE058BB162A104B526C87E /* Tango.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Tango.podspec; path = ../Tango.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		51CE096C1F974EA600188AAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE04A404DC6AD6734AD841CC /* Pods_Tango_Example_Rich_Notification.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCD1AFB9204008FA782 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,11 +107,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51CE09701F974EA600188AAB /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				51CE09711F974EA600188AAB /* NotificationService.swift */,
+				51CE09731F974EA600188AAB /* Info.plist */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for Tango */,
+				51CE09701F974EA600188AAB /* Notification */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				CC8728AADCA8ECCD15C1ACE7 /* Pods */,
@@ -86,6 +134,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* Tango_Example.app */,
 				607FACE51AFB9204008FA782 /* Tango_Tests.xctest */,
+				51CE096F1F974EA600188AAB /* Tango_Example_Rich_Notification.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +193,7 @@
 			children = (
 				8FBDF3185FADC0EBD7B2DA28 /* Pods_Tango_Example.framework */,
 				83293E47E00B8ADEE14D38DE /* Pods_Tango_Tests.framework */,
+				B895F25A41253AF23373A6CA /* Pods_Tango_Example_Rich_Notification.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,6 +205,8 @@
 				0C0715D5A1A62AD8538BC067 /* Pods-Tango_Example.release.xcconfig */,
 				2DFAD55EEF3FF508258A16F0 /* Pods-Tango_Tests.debug.xcconfig */,
 				6214442DAFC759080D4441B4 /* Pods-Tango_Tests.release.xcconfig */,
+				955D79A9B35E16C9296AECCE /* Pods-Tango_Example_Rich_Notification.debug.xcconfig */,
+				C90D7E616D9A8FE14DD090C7 /* Pods-Tango_Example_Rich_Notification.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -162,6 +214,25 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		51CE096E1F974EA600188AAB /* Tango_Example_Rich_Notification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51CE09791F974EA600188AAB /* Build configuration list for PBXNativeTarget "Tango_Example_Rich_Notification" */;
+			buildPhases = (
+				2DB367790E2311CC983064C4 /* [CP] Check Pods Manifest.lock */,
+				51CE096B1F974EA600188AAB /* Sources */,
+				51CE096C1F974EA600188AAB /* Frameworks */,
+				51CE096D1F974EA600188AAB /* Resources */,
+				2DCA0374F8BDBF8A1AB64668 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tango_Example_Rich_Notification;
+			productName = "Tango-Example-Rich-Notification";
+			productReference = 51CE096F1F974EA600188AAB /* Tango_Example_Rich_Notification.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		607FACCF1AFB9204008FA782 /* Tango_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "Tango_Example" */;
@@ -172,10 +243,12 @@
 				607FACCE1AFB9204008FA782 /* Resources */,
 				192F170E3DF45BF27764E2E0 /* [CP] Embed Pods Frameworks */,
 				88BA592C2E5084AD25AC5E77 /* [CP] Copy Pods Resources */,
+				51CE097A1F974EA600188AAB /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				51CE09751F974EA600188AAB /* PBXTargetDependency */,
 			);
 			name = Tango_Example;
 			productName = Tango;
@@ -209,10 +282,14 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
+					51CE096E1F974EA600188AAB = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -238,12 +315,20 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* Tango_Example */,
+				51CE096E1F974EA600188AAB /* Tango_Example_Rich_Notification */,
 				607FACE41AFB9204008FA782 /* Tango_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		51CE096D1F974EA600188AAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCE1AFB9204008FA782 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -292,6 +377,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DB367790E2311CC983064C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DCA0374F8BDBF8A1AB64668 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tango_Example_Rich_Notification/Pods-Tango_Example_Rich_Notification-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5190B60F774206266BAA47C0 /* [CP] Embed Pods Frameworks */ = {
@@ -357,6 +472,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		51CE096B1F974EA600188AAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51CE09721F974EA600188AAB /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		607FACCC1AFB9204008FA782 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,6 +500,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		51CE09751F974EA600188AAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51CE096E1F974EA600188AAB /* Tango_Example_Rich_Notification */;
+			targetProxy = 51CE09741F974EA600188AAB /* PBXContainerItemProxy */;
+		};
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* Tango_Example */;
@@ -404,6 +532,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		51CE09771F974EA600188AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 955D79A9B35E16C9296AECCE /* Pods-Tango_Example_Rich_Notification.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "$(SRCROOT)/Notification/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.Tango-Example.Tango-Example-Rich-Notification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51CE09781F974EA600188AAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C90D7E616D9A8FE14DD090C7 /* Pods-Tango_Example_Rich_Notification.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "$(SRCROOT)/Notification/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.Tango-Example.Tango-Example-Rich-Notification";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		607FACED1AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -507,7 +681,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C6DDF70E12F8C6C03CCBF3FB /* Pods-Tango_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Tango/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -523,7 +699,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C0715D5A1A62AD8538BC067 /* Pods-Tango_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Tango/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -576,6 +754,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		51CE09791F974EA600188AAB /* Build configuration list for PBXNativeTarget "Tango_Example_Rich_Notification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51CE09771F974EA600188AAB /* Debug */,
+				51CE09781F974EA600188AAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "Tango" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

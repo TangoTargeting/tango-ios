@@ -2,18 +2,23 @@ PODS:
   - Alamofire (4.5.1)
   - Tango (1.0.7):
     - Alamofire (~> 4.5)
+  - TangoRichNotification (1.0.1)
 
 DEPENDENCIES:
   - Tango (from `../`)
+  - TangoRichNotification (from `../`)
 
 EXTERNAL SOURCES:
   Tango:
+    :path: "../"
+  TangoRichNotification:
     :path: "../"
 
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   Tango: b54423f76efc20f535c975f885038e286d53c3a3
+  TangoRichNotification: a5b1c11e72e0dd6fcec14d401d3256a772abed90
 
-PODFILE CHECKSUM: ed31e889bdb76708127fa5eb1dd145f630c32f90
+PODFILE CHECKSUM: 00fb9514fa24a3d9fb9b00813cbf3576b37326f4
 
 COCOAPODS: 1.2.1
