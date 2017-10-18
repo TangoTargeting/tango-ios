@@ -1,8 +1,8 @@
 PODS:
   - Alamofire (4.5.1)
-  - Tango (1.0.7):
+  - Tango (1.0.8):
     - Alamofire (~> 4.5)
-  - TangoRichNotification (1.0.1)
+  - TangoRichNotification (1.0.8)
 
 DEPENDENCIES:
   - Tango (from `../`)
@@ -16,8 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
-  Tango: b54423f76efc20f535c975f885038e286d53c3a3
-  TangoRichNotification: a5b1c11e72e0dd6fcec14d401d3256a772abed90
+  Tango: 861e4ba48336f4d0d01904bc08912e86521256e1
+  TangoRichNotification: d3175268deeeada7e2accbb97c46b8470e72c16c
 
 PODFILE CHECKSUM: 00fb9514fa24a3d9fb9b00813cbf3576b37326f4
 

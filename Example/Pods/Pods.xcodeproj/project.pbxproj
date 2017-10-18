@@ -15,10 +15,10 @@
 		090E74239D3C0F3147934C267FF6D02B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EFA8748A1C9685368BE86CF3DF9E82 /* Foundation.framework */; };
 		0968E6400F8F04608869AF0419CBBEC9 /* CampaignTotalEvents+CoreDaataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3486B1A6E3C1C6AE32BAD12C80E05FE /* CampaignTotalEvents+CoreDaataProperties.swift */; };
 		0B47F3DB58848391FF10A29806E93A9F /* CampaignMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC523C2E8D76382BD7FB2EFCC7A498B8 /* CampaignMedia.swift */; };
-		0BB13886C967627292C5A33F838E850F /* TANNotificationAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9572FA838591F8DCFAA461355490D3B /* TANNotificationAttachment.swift */; };
+		0BB13886C967627292C5A33F838E850F /* TANNotificationAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7086240C84FF618DBF6F6A4D0EBF8925 /* TANNotificationAttachment.swift */; };
 		0C4AF5804314C74CB3FE9E603F0733E5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6848ADB228527E0B95E7C3688CEFA67 /* CoreGraphics.framework */; };
 		0DB22157D699570AF791FFCB5B089DB5 /* TANPersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BEDBEB21B5B79B7DEB239F83FB545E /* TANPersistanceManager.swift */; };
-		10C9E88F9B13154CCA11140C2956110E /* TANMediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C58EA2FAAF0CE23644859F6BE5DA13 /* TANMediaModel.swift */; };
+		10C9E88F9B13154CCA11140C2956110E /* TANMediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5D1A2CD4D8AEFBEE5D0A34AF9AB783 /* TANMediaModel.swift */; };
 		10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */; };
 		1111EC1CAB931AD129813A8C217CB249 /* TANTangoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEDA888B50557D6A8EE5CF47BD480B1 /* TANTangoService.swift */; };
 		150B0050006BA282C38B762503FF8928 /* CampaignSchedulerRepeat+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D728C6BADEACC7F85ACAC2998D414A /* CampaignSchedulerRepeat+CoreDataProperties.swift */; };
@@ -27,17 +27,16 @@
 		1B9EDEDC964E6B08F78920B4F4B9DB84 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1CBA6A88EEF0C80468939B72261D4FD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EFA8748A1C9685368BE86CF3DF9E82 /* Foundation.framework */; };
 		1CDF62A80EB8126B62A22AF9C3D03583 /* TANCampaignSpecificsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C59D96EE01F7BAA394761DDEA96D6B /* TANCampaignSpecificsParser.swift */; };
-		1DF1B118CFC1FAD1F26E994FCF60B296 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F0EF8F4D1D65CDA0C90D5C7D41B2133 /* close@3x.png */; };
 		205D749E0DCDAEBB55760D802326187C /* DMForegroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB8B7471C1D4BE8378BC818DCB68BBF /* DMForegroundViewController.swift */; };
 		207A5179A91A58D79C59AEF313DEDAC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684E65B38B837B719B1DD6D502952883 /* UIKit.framework */; };
-		252715CF865169A1C1CF9DDCD1A83C49 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED346D0B066356A17CBA5982F3CEBD7A /* Utils.swift */; };
+		252715CF865169A1C1CF9DDCD1A83C49 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5833910569204639880245D7403D6EB8 /* Utils.swift */; };
 		27A380EC30EBDC800BE33B1C0A23B894 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E48A80B0BC4CBF97D397E8D24502D1F /* Utils.swift */; };
 		2CECA9212CBC85033D81566ED2FB5ECA /* TANNotificationCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D011617AB559787CC02D9B6FAB04CA /* TANNotificationCategory.swift */; };
 		2D461F8D7F2F5146F3B9080204E2BA93 /* DMUIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B65A88019825FB28FBFC06C1766066 /* DMUIConstants.swift */; };
 		2D9240ED6ACBF2C8005F7FF747193029 /* TANJSONDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BB4718F6394C8CFABA0A6E12EBFA4D /* TANJSONDecodable.swift */; };
 		2F836EAFCC369837D6DA2E16B2EF616E /* ErrorHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BE9B23CCE8D6DB6DF490863F980A5A /* ErrorHandling.swift */; };
 		3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */; };
-		3814717A83D20EE741A494E6460BD8DA /* TANPNEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A914F57F60A3EB08B2BBEBD6621552A /* TANPNEvent.swift */; };
+		3814717A83D20EE741A494E6460BD8DA /* TANPNEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D025C7157C00FF6BFB40FD7C314FCBDB /* TANPNEvent.swift */; };
 		3AA24D9CFAB996CFE5C2EAD9D1FABA6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6848ADB228527E0B95E7C3688CEFA67 /* CoreGraphics.framework */; };
 		3C34E202070786EF8D9A90CFD2A0DA88 /* Tango-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B9E71F4DE0F8307E66FB87BE57C784E /* Tango-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3DD37721EF042970B1A7F222554976CC /* CampaignTargetsLocations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E122B7137E5B615B0955A879D39AEAE5 /* CampaignTargetsLocations.swift */; };
@@ -45,19 +44,20 @@
 		3EF61F75856D7C1A932698F57405EFB7 /* TANSchedulerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7A70106FD6A9AF46BADF4979F38A7A /* TANSchedulerConfig.swift */; };
 		40895CD33EE21E091857A16C5A344773 /* CampaignSpecificsKeywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805B88E47E2518BE25ADE96E0AE3221F /* CampaignSpecificsKeywords.swift */; };
 		41D285A26836AA70D46DFFA588AA30D2 /* SwiftGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D96A8E19009206CAEF52159E56B5257 /* SwiftGif.swift */; };
-		42F5F62FF6A81EC1EBC057D04057EFDD /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A3D714EE17919E9033A94C41C91458 /* close@2x.png */; };
 		46747B18F9B7567E00B288B39B232FE6 /* TANNotificationAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582E92C9D0F06DA568FD0F8595A6D9B1 /* TANNotificationAttachment.swift */; };
 		483E7CA9C0211B3B9085B5D03F9294F8 /* Pods-Tango_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B2887F23E2E0715FE1D3BE57BE8457 /* Pods-Tango_Tests-dummy.m */; };
 		4C253D9D7CFC64997A3D937EC4DCA33F /* TANAlamofireService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D95AE98AA9C8B56D803F899170239 /* TANAlamofireService.swift */; };
 		4E1FA93FBABB52CD42E2924240D97ED6 /* TANCampaignDateParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8700AF14D0842D8FC053FE37D797D2CB /* TANCampaignDateParser.swift */; };
+		4EBF8C25DE79A056C9A920A17C3165BE /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B06437CC7F12B5CC8F13B68F92EB54 /* close@3x.png */; };
+		5192ED9D1F9761CF0009E817 /* Tango.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2A2A20598468F28E08CA9D8DA38F970 /* Tango.xcdatamodeld */; };
 		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E230A0448B394DE26E688DAC8E6201E /* Request.swift */; };
 		556C5C0EF92A715FF63AD4566F577B76 /* TANCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E7C77D2CE7D45A5969F48CB8F59277 /* TANCoreDataStack.swift */; };
 		57E4DD4DA3196FE1B4C63497F27B80F2 /* CampaignSpecificDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B2F2020BB16EDA17962380C42C383 /* CampaignSpecificDate.swift */; };
 		58071D53FD9C6C87849A14C45315E619 /* CampaignSpecificsKeywords+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7043D3B51EFA80246A77028E3D35B /* CampaignSpecificsKeywords+CoreDataProperties.swift */; };
+		59C343A580FF3D0265982D39AED2B6EA /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107F2521F85A5557D8CF2272D1AEBEDE /* close@2x.png */; };
 		5A96459C8E6F3ACF648C20BE2A34CCF3 /* CampaignScheduler+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905277F47501EBD5097A21B7438DFA5B /* CampaignScheduler+CoreDataProperties.swift */; };
 		5AD0A1EB138EA7D6FF1CA76F5CC7FAFB /* TANEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463C044CC617A51DA40844413B6EC9A5 /* TANEvents.swift */; };
 		5C0876E9806A0EE88CD141F1E7EFCB36 /* CampaignDate+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E7E8F1D839F2721A0287FBC7D5B64 /* CampaignDate+CoreDataProperties.swift */; };
-		5CC89DDC07E94D27A89A0EA904E20E91 /* Tango.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F8A5E2DB2485E4C8581255F8D22650F1 /* Tango.bundle */; };
 		5E4ECAEBE177D730D38A16F3B948A208 /* TANDeviceUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E08255838251B57BAE7F4D465B94EB /* TANDeviceUtils.swift */; };
 		5F90D35DF913EFE293A1C001CF4A4871 /* TANCampaingSchedulerParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48C0372B9711E8DB4AC8CC7BC765870 /* TANCampaingSchedulerParser.swift */; };
 		5FE48BB67A31DA41823B33E87C18733D /* TANCampaignTargetsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FA09831708F875A47D032F8B8E0BDD /* TANCampaignTargetsParser.swift */; };
@@ -67,8 +67,8 @@
 		6789CEEDE0F24C3B953C0F01754DB77E /* CampaignAction+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97C36D7C53629E5AC3BF0E4DC3591E /* CampaignAction+CoreDataProperties.swift */; };
 		697E7F3B6C213B4E0C44E4A1AF2D3896 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8EFA8748A1C9685368BE86CF3DF9E82 /* Foundation.framework */; };
 		6B2CDA1A19502C32EB989F1721EF7C4A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD0FA7EE743F01B3A6385702606A408 /* Alamofire.framework */; };
-		6C366756B5BA386F552BA9868BCCE51C /* TangoRichNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D3625DBFEA36CB34BE4C83573D1C063 /* TangoRichNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C59448B5A926944D8AA381D22487ED9 /* TangoRichNotification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A6747605B3AA66B9BA0A06031DBB04 /* TangoRichNotification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C366756B5BA386F552BA9868BCCE51C /* TangoRichNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = C660145D8CF83FF7C3D28466F8883A90 /* TangoRichNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C59448B5A926944D8AA381D22487ED9 /* TangoRichNotification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 709275E38E525730E5175041A6DEEC55 /* TangoRichNotification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CFAA16D35D60F40946104399D8EF2D4 /* Campaign+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A557A2C5F853D3476C58182C7BFEA10F /* Campaign+CoreDataProperties.swift */; };
 		6D0FCB1665B6B81A1DBB92A9CBB43AF8 /* DMDisplayContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CDCD1C9841A53D6ED3E8BDF83B2F5 /* DMDisplayContent.swift */; };
 		6E4519E98EBA0BA8AA4802968000C189 /* CampaignSchedulerRepeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7590F5F22816CF2439E213600790220F /* CampaignSchedulerRepeat.swift */; };
@@ -87,13 +87,13 @@
 		897887214130F53DC6B2DA22F5B6231B /* Pods-Tango_Example_Rich_Notification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4818322121DBF01AE1DBD1FE76F93358 /* Pods-Tango_Example_Rich_Notification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8D3DBA01F0E95477B6319527DCDD88F7 /* CampaignTotalEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC0BF5D3EADCB13C98703C72458BBFC /* CampaignTotalEvents.swift */; };
 		90DD6C0127AFA63707283EBC78A0E345 /* TANSchedulerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6753920C4C384C42CC4BCD629A59F3 /* TANSchedulerManager.swift */; };
-		90E0413BD7ECD11ED99A044A60ED2B8A /* TangoRichNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41600B281BD19F3EC7761E7D40C446F7 /* TangoRichNotification-dummy.m */; };
+		90E0413BD7ECD11ED99A044A60ED2B8A /* TangoRichNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F2BFC636336B7D896DD8A4870550845 /* TangoRichNotification-dummy.m */; };
 		916B88C44E1DDC598206BDB819F504E1 /* TANDBCampaignManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED320D3A7A19F428B0770A6B3DE42B71 /* TANDBCampaignManager.swift */; };
 		9358B15F54BF11E6F622B33591EBF027 /* CampaignMedia+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB78F2834D8895E45828E3E0352CAD4B /* CampaignMedia+CoreDataProperties.swift */; };
 		93670A2EB9FDF0426A8DDF28DA62CAF6 /* Tango-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3FA6A9F1F62AE9AD7E3D4905326068 /* Tango-dummy.m */; };
 		93DEBFA550D445CA9BB8E6CCF3DBA73D /* TANDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0823FCF9422A6BC162AAA8158AB14795 /* TANDebug.swift */; };
 		9490156AAAD1875C416417BE59C50E65 /* CampaignDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9237C96A22D9DA4BDE779295DB98B156 /* CampaignDay.swift */; };
-		95C5ED2F92366328E52531A1CBBAA8D7 /* Tango.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F8A5E2DB2485E4C8581255F8D22650F1 /* Tango.bundle */; };
+		95C5ED2F92366328E52531A1CBBAA8D7 /* Tango.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B900AA62D7701E9F0C592CA330D1FA6 /* Tango.bundle */; };
 		95DD422BCE311643C6E462828E1DFEEB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684E65B38B837B719B1DD6D502952883 /* UIKit.framework */; };
 		96D051326619962010DA747F61D52F7B /* TANRichNotifUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906A27128DFEC7742D68F40FCF2CA5CB /* TANRichNotifUtils.swift */; };
 		9A2423C5868C9B9C98B46EE69140A9B0 /* Pods-Tango_Example_Rich_Notification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 490E978E92B8B57777C461C140D9E60E /* Pods-Tango_Example_Rich_Notification-dummy.m */; };
@@ -114,6 +114,7 @@
 		B2008D3EFCDBF86349DD244C03B4E6D2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B29A53FE8572965E496745FBBD6F2 /* SystemConfiguration.framework */; };
 		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */; };
 		B8C121E654727646A535F1C13C62C39E /* TANMediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE13AD33AE6460278D5E2EC49D2692C /* TANMediaModel.swift */; };
+		BA5986FEC7E9A22DE899E1788AEFEEDD /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 132F1A6693942B903140D59B74E8A017 /* close.png */; };
 		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */; };
 		BDDECCE3E5C95E17E507B96270DBE2B0 /* CampaignEvent+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B561761EB7D15C9BB0C73364C10CBA1 /* CampaignEvent+CoreDataProperties.swift */; };
 		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */; };
@@ -126,7 +127,6 @@
 		C3829BB38FF6934D362D7514E1DB8A31 /* CampaignLimits+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 477194D9BCDE89A6691F5D4BE702E9D2 /* CampaignLimits+CoreDataProperties.swift */; };
 		C60397EFF97B43E50704FCBC6D1B0C4C /* CampaignMediaSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8972A2FE6A5467EF8495B45FBC7AC589 /* CampaignMediaSize.swift */; };
 		CA1B64488BD2742D2658457395A88746 /* TANSchedulerDateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829507DAF83E7AC6111E6C5C4AD01CC6 /* TANSchedulerDateUtils.swift */; };
-		CAA52EFA837471BD98BB6DEEE242DE88 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = D0A25CAAFB5863A81176C78BB63EF671 /* close.png */; };
 		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F47F5C9CDB035C5AFADEBA5BF44F1C /* Response.swift */; };
 		CCB5806867852D8DA97DFCE13A3FD9E4 /* CampaignSpecifics+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FEDD7B5B46904440A661B908144FB3 /* CampaignSpecifics+CoreDataProperties.swift */; };
 		D2ED76DD37ED3D3BC2E515F45F30F0C3 /* TANCampaignStatsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7352A013ACF131E7778C9A7E41BD5938 /* TANCampaignStatsParser.swift */; };
@@ -141,12 +141,12 @@
 		E2CDE6150EE9474B093AE78B8A0545ED /* CampaignTargetsLocations+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D0CF178DEC7DCB103EB1196C33642C /* CampaignTargetsLocations+CoreDataProperties.swift */; };
 		E3E3B6D4B03080C7FCD04BA11F1BCB3A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C917E079F4C79113115F8AC49654E2D /* CoreLocation.framework */; };
 		E7BFB8BB1DCE15D1B553F82A0898EE50 /* CampaignTargets+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E193F82E02C691D84A774B8DD1B7B913 /* CampaignTargets+CoreDataProperties.swift */; };
-		E8678A93ED08FDEB72B95676BDA12300 /* TangoRichNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C6D2C05FEB15881D367042E74FB07C /* TangoRichNotification.swift */; };
+		E8678A93ED08FDEB72B95676BDA12300 /* TangoRichNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0FF072E5361A7F9B935CBBDA3B383B /* TangoRichNotification.swift */; };
 		E9C27AFDFC69E490552FC5FB3CFD3436 /* CampaignStats+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4267D2A47BFAB7B058586DA4B3534C /* CampaignStats+CoreDataProperties.swift */; };
 		EB5E2769072FCB197162CE47C6626F90 /* TANDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAEE6CEEC7F5F9D7BFCE4788753D352 /* TANDevice.swift */; };
 		EEFF6867B4473C1700727472467BC82F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B29A53FE8572965E496745FBBD6F2 /* SystemConfiguration.framework */; };
 		EFAFEF5E31FCD464EB507E526635E47F /* TANLocalNotificationComander.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB032F8000833A088AB1AF4FE9AF017 /* TANLocalNotificationComander.swift */; };
-		EFC9DBD5CB7A4E9B5DDEE01964497B69 /* TANNotificationCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3E9BB522C763A3A130E3938C7E4416 /* TANNotificationCategory.swift */; };
+		EFC9DBD5CB7A4E9B5DDEE01964497B69 /* TANNotificationCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA50E6D9692649CE25B687910D8A224 /* TANNotificationCategory.swift */; };
 		EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */; };
 		F11C998A591EBF0E44F292DD82C5EF0A /* Tango.h in Headers */ = {isa = PBXBuildFile; fileRef = 489CDE465776AE3D5D4581CABAAD52D5 /* Tango.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2A8C59978835D7B54A222CDB2687ADE /* Pods-Tango_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5B7E534877321223C0C202F16A7F24 /* Pods-Tango_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -190,13 +190,6 @@
 			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
 			remoteInfo = Alamofire;
 		};
-		79F2D66F45BEB959B5FBB6DB81207A97 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55D97B6AFEAC28DC8CDB4703C7496B82;
-			remoteInfo = "TangoRichNotification-Tango";
-		};
 		B945D04DC71789A7850D653EA1C6B1F1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -222,18 +215,19 @@
 		0823FCF9422A6BC162AAA8158AB14795 /* TANDebug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANDebug.swift; sourceTree = "<group>"; };
 		08D011617AB559787CC02D9B6FAB04CA /* TANNotificationCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANNotificationCategory.swift; sourceTree = "<group>"; };
 		0AD83703CC9D501CD3E53282EA8B3E03 /* Pods-Tango_Example_Rich_Notification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tango_Example_Rich_Notification.debug.xcconfig"; sourceTree = "<group>"; };
-		0B3E9BB522C763A3A130E3938C7E4416 /* TANNotificationCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANNotificationCategory.swift; sourceTree = "<group>"; };
 		0B561761EB7D15C9BB0C73364C10CBA1 /* CampaignEvent+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CampaignEvent+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		0C917E079F4C79113115F8AC49654E2D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		0DE13AD33AE6460278D5E2EC49D2692C /* TANMediaModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANMediaModel.swift; sourceTree = "<group>"; };
 		0FCBF1EED873F61C6D46CE37FA5C39D3 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		107F2521F85A5557D8CF2272D1AEBEDE /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		11329DD6A20DE504141D58458EAF1650 /* TangoRichNotification-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TangoRichNotification-prefix.pch"; sourceTree = "<group>"; };
+		132F1A6693942B903140D59B74E8A017 /* close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		13A0A663B36A229C69D5274A83E93F88 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		140238A404AB354C8FDF9D35300988A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14BEDBEB21B5B79B7DEB239F83FB545E /* TANPersistanceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANPersistanceManager.swift; sourceTree = "<group>"; };
 		14FB7797C18E77D8C738E3025836E170 /* CampaignAction+CoreDataClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CampaignAction+CoreDataClass.swift"; sourceTree = "<group>"; };
 		155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		175C5A07E61319183D002086BFBD5302 /* Pods_Tango_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tango_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		18D3B31CB27CF96DE21DB622CC2650D6 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B06437CC7F12B5CC8F13B68F92EB54 /* close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
 		195D73DD9EF275A3C56569E2B1CA8026 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		1A9DDDAA31F872F2DA8CE242C8CB1EE4 /* Pods-Tango_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tango_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1B13650FD49D4D9EFA4CDDB3C2C016A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -246,7 +240,6 @@
 		24E806B9452C54213A81D2CDE380CFA9 /* Pods-Tango_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tango_Tests-resources.sh"; sourceTree = "<group>"; };
 		29D2D5203A1EA91899D1678141EF3417 /* Pods-Tango_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tango_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2A4267D2A47BFAB7B058586DA4B3534C /* CampaignStats+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CampaignStats+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		2A914F57F60A3EB08B2BBEBD6621552A /* TANPNEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANPNEvent.swift; sourceTree = "<group>"; };
 		2DAEE6CEEC7F5F9D7BFCE4788753D352 /* TANDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANDevice.swift; sourceTree = "<group>"; };
 		2E6753920C4C384C42CC4BCD629A59F3 /* TANSchedulerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANSchedulerManager.swift; sourceTree = "<group>"; };
 		30DFD62A93BCA2C1FD5B42A6BB737CBC /* DMViewRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DMViewRenderer.swift; sourceTree = "<group>"; };
@@ -254,7 +247,6 @@
 		318C2A04A3CAE34411FD335A3B3AB03F /* TANTangoRichNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANTangoRichNotification.swift; sourceTree = "<group>"; };
 		32B030D27CAC730C5EB0F22390645310 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
 		32C03207B8765EAAE6DF3411352CB447 /* Tango.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Tango.modulemap; sourceTree = "<group>"; };
-		34B6C506824B825DCB554DAEFD8DB52D /* TangoRichNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TangoRichNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		351B1F2ED1F8C31661F2FFD6EC9336C4 /* CampaignLimits.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CampaignLimits.swift; sourceTree = "<group>"; };
 		369F736A947BA24146BB86602F2FAA4B /* TANCampaignParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANCampaignParser.swift; sourceTree = "<group>"; };
 		37D5665F2B728F26A22715007498DBFF /* TANTangoUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANTangoUtils.swift; sourceTree = "<group>"; };
@@ -265,10 +257,11 @@
 		3D60BC9955B4F7FFA62D7440CB385C11 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		3F5CDCD1C9841A53D6ED3E8BDF83B2F5 /* DMDisplayContent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DMDisplayContent.swift; sourceTree = "<group>"; };
 		402FD9C5CD06772B387FF4AB4138DFE4 /* CampaignSchedulerSpecificDates+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CampaignSchedulerSpecificDates+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		41600B281BD19F3EC7761E7D40C446F7 /* TangoRichNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TangoRichNotification-dummy.m"; sourceTree = "<group>"; };
+		406DC4FB3DC8481489765E9C325DB85E /* TangoRichNotification.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TangoRichNotification.xcconfig; sourceTree = "<group>"; };
 		419B29A53FE8572965E496745FBBD6F2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		421D8366D68CC6B95E7D5B9CAAAAD0C2 /* CampaignContent+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CampaignContent+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		4221CA03B160197F90D894AF7DEB6B41 /* TANCampaignActionParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANCampaignActionParser.swift; sourceTree = "<group>"; };
+		431EAB55F81CFD5E30B0C3C3025435AA /* Pods_Tango_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tango_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45FE7DD53AA7F88DBBEAF0C83609E8C2 /* TANLocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANLocationManager.swift; sourceTree = "<group>"; };
 		463C044CC617A51DA40844413B6EC9A5 /* TANEvents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANEvents.swift; sourceTree = "<group>"; };
 		46B2887F23E2E0715FE1D3BE57BE8457 /* Pods-Tango_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tango_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -279,18 +272,19 @@
 		490E978E92B8B57777C461C140D9E60E /* Pods-Tango_Example_Rich_Notification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tango_Example_Rich_Notification-dummy.m"; sourceTree = "<group>"; };
 		4AF006B0AD5765D1BFA8253C2DCBB126 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		4B9E71F4DE0F8307E66FB87BE57C784E /* Tango-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tango-umbrella.h"; sourceTree = "<group>"; };
-		5167D3621F975B9C00379FAD /* Tango.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tango.xcdatamodel; sourceTree = "<group>"; };
+		4F2BFC636336B7D896DD8A4870550845 /* TangoRichNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TangoRichNotification-dummy.m"; sourceTree = "<group>"; };
 		520A74AF515C6FC5D962C0DCADA95207 /* Pods-Tango_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tango_Tests-umbrella.h"; sourceTree = "<group>"; };
 		582E92C9D0F06DA568FD0F8595A6D9B1 /* TANNotificationAttachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANNotificationAttachment.swift; sourceTree = "<group>"; };
+		5833910569204639880245D7403D6EB8 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		5A53FD0E91CB23EC596391996A8846FD /* TangoRichNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TangoRichNotification.modulemap; sourceTree = "<group>"; };
 		5E48A80B0BC4CBF97D397E8D24502D1F /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		5E6919039502DF4D338498684DDEEAB9 /* CampaignSpecificDate+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CampaignSpecificDate+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		5FBC38A97F8CC6329ABC25FFFFE7747A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64F7B07B76CE490E55130F1FFCD69EBA /* Pods-Tango_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tango_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		657EF7D440BD9D11092ADB442E579157 /* Pods_Tango_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tango_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		667ACA1C9287D2A4264FDD0DCDD91A53 /* CustomTrigger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CustomTrigger.swift; sourceTree = "<group>"; };
 		66A46F517F0AF7E85A16D723F6406896 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		66A6B3C299B4A29177CB6D8DB26EDD56 /* TANDeviceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANDeviceManager.swift; sourceTree = "<group>"; };
-		66DCABD33EEE1FE183AD5673B9697E16 /* TangoRichNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TangoRichNotification.modulemap; sourceTree = "<group>"; };
 		66FA09831708F875A47D032F8B8E0BDD /* TANCampaignTargetsParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANCampaignTargetsParser.swift; sourceTree = "<group>"; };
 		684E65B38B837B719B1DD6D502952883 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		68DD4CAF1FD96E64DCC592345DE4F7A7 /* CampaignEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CampaignEvent.swift; sourceTree = "<group>"; };
@@ -299,14 +293,15 @@
 		6AC0BF5D3EADCB13C98703C72458BBFC /* CampaignTotalEvents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CampaignTotalEvents.swift; sourceTree = "<group>"; };
 		6B97FD244D72AF3CD494BB381DD3AE6A /* Tango.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Tango.xcconfig; sourceTree = "<group>"; };
 		6C7821B184CD35CA3EF2A57D3F22AB68 /* CampaignScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CampaignScheduler.swift; sourceTree = "<group>"; };
-		6D3625DBFEA36CB34BE4C83573D1C063 /* TangoRichNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangoRichNotification.h; sourceTree = "<group>"; };
+		6EA9D21FF062F1F5FB8DDBE64145F663 /* Pods_Tango_Example_Rich_Notification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tango_Example_Rich_Notification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		70167494550AED0525449410CBCDF82F /* Pods-Tango_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tango_Example.modulemap"; sourceTree = "<group>"; };
+		7086240C84FF618DBF6F6A4D0EBF8925 /* TANNotificationAttachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANNotificationAttachment.swift; sourceTree = "<group>"; };
+		709275E38E525730E5175041A6DEEC55 /* TangoRichNotification-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TangoRichNotification-umbrella.h"; sourceTree = "<group>"; };
 		7352A013ACF131E7778C9A7E41BD5938 /* TANCampaignStatsParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANCampaignStatsParser.swift; sourceTree = "<group>"; };
 		7590F5F22816CF2439E213600790220F /* CampaignSchedulerRepeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CampaignSchedulerRepeat.swift; sourceTree = "<group>"; };
 		75A685FD1A43689B3F240B2ADDA8358E /* CampaignDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CampaignDate.swift; sourceTree = "<group>"; };
 		75FEDD7B5B46904440A661B908144FB3 /* CampaignSpecifics+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CampaignSpecifics+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		76F28FB84B6A9CB1B927CD153A6C2EFD /* Pods-Tango_Example_Rich_Notification-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tango_Example_Rich_Notification-resources.sh"; sourceTree = "<group>"; };
-		790B7263BBA890CBCCD8B0A5FC1C2731 /* TangoRichNotification-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TangoRichNotification-prefix.pch"; sourceTree = "<group>"; };
 		7A9F7F42FB442AE3D383D8853858F769 /* Pods-Tango_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tango_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7C47ACE505F363969C30F248E333C969 /* TANCampaignMediaParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANCampaignMediaParser.swift; sourceTree = "<group>"; };
 		7D141D1953E5C6E67E362CE73090E48A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
@@ -320,27 +315,25 @@
 		87882A1F5A92C8138D54545E51D51E6F /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		8972A2FE6A5467EF8495B45FBC7AC589 /* CampaignMediaSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CampaignMediaSize.swift; sourceTree = "<group>"; };
 		8D96A8E19009206CAEF52159E56B5257 /* SwiftGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftGif.swift; sourceTree = "<group>"; };
-		8F0EF8F4D1D65CDA0C90D5C7D41B2133 /* close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
 		905277F47501EBD5097A21B7438DFA5B /* CampaignScheduler+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CampaignScheduler+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		906A27128DFEC7742D68F40FCF2CA5CB /* TANRichNotifUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANRichNotifUtils.swift; sourceTree = "<group>"; };
-		90A3D714EE17919E9033A94C41C91458 /* close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
 		9179C69A08A899E0624368FE6A4540F5 /* DMDisplayManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DMDisplayManager.swift; sourceTree = "<group>"; };
 		9237C96A22D9DA4BDE779295DB98B156 /* CampaignDay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CampaignDay.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		975D07BD56F811F1B855DCCFF4678C06 /* DMForegroundViewRenderer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DMForegroundViewRenderer.swift; sourceTree = "<group>"; };
-		9B6A0D80C2C601EB92023D1C65FBEE33 /* Pods_Tango_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tango_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B900AA62D7701E9F0C592CA330D1FA6 /* Tango.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tango.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C2E4CE56F1DC5907BE3EB8DC7E64C71 /* TANTag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANTag.swift; sourceTree = "<group>"; };
 		9CDEC273548C79B969527D43455AE8D9 /* Pods-Tango_Example_Rich_Notification-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tango_Example_Rich_Notification-acknowledgements.plist"; sourceTree = "<group>"; };
 		9FB6CCD41C7E71D2341446163A288AB7 /* CampaignDay+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CampaignDay+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A019CC612F75ECFC3C1826B72563F913 /* ResourceBundle-Tango-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Tango-Info.plist"; sourceTree = "<group>"; };
 		A01C037B4034EDA3D7955BC5E4E9D9D6 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		A557A2C5F853D3476C58182C7BFEA10F /* Campaign+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Campaign+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		A5A6747605B3AA66B9BA0A06031DBB04 /* TangoRichNotification-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TangoRichNotification-umbrella.h"; sourceTree = "<group>"; };
 		A5D16AFE855F8559D7A53127303920FB /* Pods-Tango_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tango_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A8FF77D55964D17D9912EA8D0C5D8371 /* Pods-Tango_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tango_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		ABF049A75A92D2A5C330D5F017F5C816 /* PushNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PushNotification.swift; sourceTree = "<group>"; };
+		AC488D0A31DE5F0857669F942D323861 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC523C2E8D76382BD7FB2EFCC7A498B8 /* CampaignMedia.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CampaignMedia.swift; sourceTree = "<group>"; };
-		ACB29DAF4D061840447F7F02E30C6B5F /* TangoRichNotification.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TangoRichNotification.xcconfig; sourceTree = "<group>"; };
+		AC5D1A2CD4D8AEFBEE5D0A34AF9AB783 /* TANMediaModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANMediaModel.swift; sourceTree = "<group>"; };
 		ACEDA888B50557D6A8EE5CF47BD480B1 /* TANTangoService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANTangoService.swift; sourceTree = "<group>"; };
 		AD7B6D51F6A17429DE7BC80346DA983C /* Campaign.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Campaign.swift; sourceTree = "<group>"; };
 		AF69D13CDFE255C8117D369D0E4AD4D3 /* TANCampaignContentParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANCampaignContentParser.swift; sourceTree = "<group>"; };
@@ -352,35 +345,33 @@
 		B3D22CA44C9CF6741472DAC6545EA1B6 /* CampaignSpecifics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CampaignSpecifics.swift; sourceTree = "<group>"; };
 		B44A27EFBB0DA84D738057B77F3413B1 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		B6848ADB228527E0B95E7C3688CEFA67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		B7C58EA2FAAF0CE23644859F6BE5DA13 /* TANMediaModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANMediaModel.swift; sourceTree = "<group>"; };
 		B8D6F9AD5E9162ACBC2FCA503DA104D4 /* TANConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANConstants.swift; sourceTree = "<group>"; };
-		BC23C497B995815FFC0BA3D06A6F43F6 /* Tango.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tango.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7EAF7520DC36173C3749C377D7A9AD /* TangoRichNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TangoRichNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC97C36D7C53629E5AC3BF0E4DC3591E /* CampaignAction+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CampaignAction+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		BCCA9CA7D9C1A2047BB93336C5708DFD /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		BE9D361BE19FBB209038BEC83F5C5614 /* CampaignMediaSize+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CampaignMediaSize+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		BFC37781E38270321B9ABB0B97E8018A /* Pods_Tango_Example_Rich_Notification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tango_Example_Rich_Notification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C03525C730666DA67B7DE2DA8162C5BA /* Pods-Tango_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tango_Example-resources.sh"; sourceTree = "<group>"; };
 		C297C55101C9FCF5BB2E3EBE66D5662C /* Pods-Tango_Example_Rich_Notification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tango_Example_Rich_Notification.modulemap"; sourceTree = "<group>"; };
 		C2CB976653B66D942E45930AFC2B99C3 /* Display.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
 		C48C0372B9711E8DB4AC8CC7BC765870 /* TANCampaingSchedulerParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANCampaingSchedulerParser.swift; sourceTree = "<group>"; };
+		C660145D8CF83FF7C3D28466F8883A90 /* TangoRichNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangoRichNotification.h; sourceTree = "<group>"; };
 		C7AA5D3126546198C055841D727442AB /* Pods-Tango_Example_Rich_Notification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tango_Example_Rich_Notification.release.xcconfig"; sourceTree = "<group>"; };
 		C8740E82CB9C5734503AADB9567935CF /* Pods-Tango_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Tango_Tests.modulemap"; sourceTree = "<group>"; };
-		C9572FA838591F8DCFAA461355490D3B /* TANNotificationAttachment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANNotificationAttachment.swift; sourceTree = "<group>"; };
 		CA3FA6A9F1F62AE9AD7E3D4905326068 /* Tango-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Tango-dummy.m"; sourceTree = "<group>"; };
+		CAE01C3CD726700EB0DB640D29FC52ED /* Tango.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tango.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3111EEA4B8B8A40DA5779D186608B7 /* Pods-Tango_Example_Rich_Notification-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tango_Example_Rich_Notification-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CD67BE459CCBC8DB54E5CBDE9FC7F24C /* TANLocationUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANLocationUtils.swift; sourceTree = "<group>"; };
 		CE2D95AE98AA9C8B56D803F899170239 /* TANAlamofireService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANAlamofireService.swift; sourceTree = "<group>"; };
 		CE5B7E534877321223C0C202F16A7F24 /* Pods-Tango_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tango_Example-umbrella.h"; sourceTree = "<group>"; };
 		CED7043D3B51EFA80246A77028E3D35B /* CampaignSpecificsKeywords+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CampaignSpecificsKeywords+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CF5030377D4359AC11D3F377FD134274 /* Pods-Tango_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tango_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D0A25CAAFB5863A81176C78BB63EF671 /* close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		D025C7157C00FF6BFB40FD7C314FCBDB /* TANPNEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANPNEvent.swift; sourceTree = "<group>"; };
 		D3BE9B23CCE8D6DB6DF490863F980A5A /* ErrorHandling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ErrorHandling.swift; sourceTree = "<group>"; };
 		D6954F3A81614A0E72DBE6EEAF715764 /* DMTANButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DMTANButton.swift; sourceTree = "<group>"; };
 		D7BB4718F6394C8CFABA0A6E12EBFA4D /* TANJSONDecodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANJSONDecodable.swift; sourceTree = "<group>"; };
 		DB48AC68A198E5878078FDDA74604E68 /* CampaignStats.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CampaignStats.swift; sourceTree = "<group>"; };
 		DB56A7765B80ECABAE727FD03FD9F727 /* PrintObjectDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrintObjectDescription.swift; sourceTree = "<group>"; };
 		DBB4E265CC6B165C08B2D240B06AC624 /* TANCampaignLimitsParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANCampaignLimitsParser.swift; sourceTree = "<group>"; };
-		DDB90D3E634177ABD15FD70BE6DF57E0 /* ResourceBundle-Tango-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Tango-Info.plist"; sourceTree = "<group>"; };
 		DFCB8C44DE758E906C0BCDA455937B85 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		E122B7137E5B615B0955A879D39AEAE5 /* CampaignTargetsLocations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CampaignTargetsLocations.swift; sourceTree = "<group>"; };
 		E193F82E02C691D84A774B8DD1B7B913 /* CampaignTargets+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CampaignTargets+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -389,13 +380,14 @@
 		E6F34CCF86067ED508C12C676E298C69 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		E961FC204EBA0A89D8DF49EF2A64443E /* CampaignTargets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CampaignTargets.swift; sourceTree = "<group>"; };
 		E9DAA5B7796D41AC812252DB41584FF6 /* Pods-Tango_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tango_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA0FF072E5361A7F9B935CBBDA3B383B /* TangoRichNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TangoRichNotification.swift; sourceTree = "<group>"; };
 		EB8B2F2020BB16EDA17962380C42C383 /* CampaignSpecificDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CampaignSpecificDate.swift; sourceTree = "<group>"; };
+		EBA50E6D9692649CE25B687910D8A224 /* TANNotificationCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANNotificationCategory.swift; sourceTree = "<group>"; };
 		ED320D3A7A19F428B0770A6B3DE42B71 /* TANDBCampaignManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANDBCampaignManager.swift; sourceTree = "<group>"; };
-		ED346D0B066356A17CBA5982F3CEBD7A /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		EE7A70106FD6A9AF46BADF4979F38A7A /* TANSchedulerConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANSchedulerConfig.swift; sourceTree = "<group>"; };
+		EF97F8072449F141AFF678138B080650 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0753048CE50DAF3178BE776426BF18E /* TANCampaignSchedulerRepeatParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TANCampaignSchedulerRepeatParser.swift; sourceTree = "<group>"; };
-		F3C6D2C05FEB15881D367042E74FB07C /* TangoRichNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TangoRichNotification.swift; sourceTree = "<group>"; };
-		F8A5E2DB2485E4C8581255F8D22650F1 /* Tango.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tango.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69482EFDAFAF021D33607B9CD1A472E /* Tango.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = Tango.xcdatamodel; sourceTree = "<group>"; };
 		F8EFA8748A1C9685368BE86CF3DF9E82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FA127C7B98FE964CC9C5A5352B4185E4 /* Pods-Tango_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tango_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		FA4E7E8F1D839F2721A0287FBC7D5B64 /* CampaignDate+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CampaignDate+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -468,22 +460,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4BB804D977D070A53B77239F79AD321 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0779B3C8B19ED2D2595B884CA017D5B7 /* Tango */ = {
+		0791761C5918D44B234E3A82220D39AD /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				88F859BCE757FEEAF40D17ED3EE3E926 /* Assets */,
+				132F1A6693942B903140D59B74E8A017 /* close.png */,
+				107F2521F85A5557D8CF2272D1AEBEDE /* close@2x.png */,
+				16B06437CC7F12B5CC8F13B68F92EB54 /* close@3x.png */,
+				A2A2A20598468F28E08CA9D8DA38F970 /* Tango.xcdatamodeld */,
 			);
-			path = Tango;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		09CD0ACE772AB18B65B6DF405025E512 /* Utils */ = {
@@ -549,20 +537,6 @@
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		20D54DF378549A39A73417FAF2E3C2A5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				18D3B31CB27CF96DE21DB622CC2650D6 /* Alamofire.framework */,
-				9B6A0D80C2C601EB92023D1C65FBEE33 /* Pods_Tango_Example.framework */,
-				BFC37781E38270321B9ABB0B97E8018A /* Pods_Tango_Example_Rich_Notification.framework */,
-				175C5A07E61319183D002086BFBD5302 /* Pods_Tango_Tests.framework */,
-				F8A5E2DB2485E4C8581255F8D22650F1 /* Tango.bundle */,
-				BC23C497B995815FFC0BA3D06A6F43F6 /* Tango.framework */,
-				34B6C506824B825DCB554DAEFD8DB52D /* TangoRichNotification.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		24DFA39C71B050C8B16721AE5F48E1D1 /* Device */ = {
 			isa = PBXGroup;
 			children = (
@@ -617,6 +591,20 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		296952F6E97A1CBCA6BC912A0BDC1342 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF97F8072449F141AFF678138B080650 /* Info.plist */,
+				5A53FD0E91CB23EC596391996A8846FD /* TangoRichNotification.modulemap */,
+				406DC4FB3DC8481489765E9C325DB85E /* TangoRichNotification.xcconfig */,
+				4F2BFC636336B7D896DD8A4870550845 /* TangoRichNotification-dummy.m */,
+				11329DD6A20DE504141D58458EAF1650 /* TangoRichNotification-prefix.pch */,
+				709275E38E525730E5175041A6DEEC55 /* TangoRichNotification-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TangoRichNotification";
+			sourceTree = "<group>";
+		};
 		2B0F1F9C027502511EE890118ECE6352 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -657,20 +645,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		3624C2FC184C776C04063641643D72BB /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				6D3625DBFEA36CB34BE4C83573D1C063 /* TangoRichNotification.h */,
-				F3C6D2C05FEB15881D367042E74FB07C /* TangoRichNotification.swift */,
-				B7C58EA2FAAF0CE23644859F6BE5DA13 /* TANMediaModel.swift */,
-				C9572FA838591F8DCFAA461355490D3B /* TANNotificationAttachment.swift */,
-				0B3E9BB522C763A3A130E3938C7E4416 /* TANNotificationCategory.swift */,
-				2A914F57F60A3EB08B2BBEBD6621552A /* TANPNEvent.swift */,
-				ED346D0B066356A17CBA5982F3CEBD7A /* Utils.swift */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		3A82E95AC1FEACF2A1371B0E67889F31 /* Tango */ = {
 			isa = PBXGroup;
 			children = (
@@ -679,19 +653,14 @@
 			path = Tango;
 			sourceTree = "<group>";
 		};
-		463B8A2A780779CFADE83370FF3C7EBB /* Support Files */ = {
+		46A780E54D6069DEFB51078C0545778A /* TangoRichNotification */ = {
 			isa = PBXGroup;
 			children = (
-				5FBC38A97F8CC6329ABC25FFFFE7747A /* Info.plist */,
-				DDB90D3E634177ABD15FD70BE6DF57E0 /* ResourceBundle-Tango-Info.plist */,
-				66DCABD33EEE1FE183AD5673B9697E16 /* TangoRichNotification.modulemap */,
-				ACB29DAF4D061840447F7F02E30C6B5F /* TangoRichNotification.xcconfig */,
-				41600B281BD19F3EC7761E7D40C446F7 /* TangoRichNotification-dummy.m */,
-				790B7263BBA890CBCCD8B0A5FC1C2731 /* TangoRichNotification-prefix.pch */,
-				A5A6747605B3AA66B9BA0A06031DBB04 /* TangoRichNotification-umbrella.h */,
+				296952F6E97A1CBCA6BC912A0BDC1342 /* Support Files */,
+				F1626AA106905E16C622B5BE0B9E2A16 /* TangoRichNotification */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TangoRichNotification";
+			name = TangoRichNotification;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		4CCE1D36FD4AC38B513EE08F96D156CF /* Pods-Tango_Example_Rich_Notification */ = {
@@ -723,14 +692,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Alamofire";
-			sourceTree = "<group>";
-		};
-		5653A3EC7B1D03256CCEECCE5F65BCD6 /* TangoRichNotification */ = {
-			isa = PBXGroup;
-			children = (
-				3624C2FC184C776C04063641643D72BB /* Classes */,
-			);
-			path = TangoRichNotification;
 			sourceTree = "<group>";
 		};
 		60F2A8E4C7D8E25EC62514EE1D7B9CC1 /* Business */ = {
@@ -767,16 +728,6 @@
 			path = CustomTrigger;
 			sourceTree = "<group>";
 		};
-		6D6122C1192982EB0C2669A6BD490A17 /* TangoRichNotification */ = {
-			isa = PBXGroup;
-			children = (
-				463B8A2A780779CFADE83370FF3C7EBB /* Support Files */,
-				5653A3EC7B1D03256CCEECCE5F65BCD6 /* TangoRichNotification */,
-			);
-			name = TangoRichNotification;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		6DC11B3A495866198B3C79211D1FF96C /* PersistanceLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -802,6 +753,14 @@
 			);
 			name = "Pods-Tango_Example";
 			path = "Target Support Files/Pods-Tango_Example";
+			sourceTree = "<group>";
+		};
+		7302617BFB57AF1EB1A0C9A9A5A6FB01 /* Tango */ = {
+			isa = PBXGroup;
+			children = (
+				0791761C5918D44B234E3A82220D39AD /* Assets */,
+			);
+			path = Tango;
 			sourceTree = "<group>";
 		};
 		771D85E0042CD0BAFCCF5943D039D630 /* Model */ = {
@@ -836,7 +795,7 @@
 				7FA84A83212866290721CC446E0BDB51 /* Development Pods */,
 				626BE02B583652D883A14A0561438CB2 /* Frameworks */,
 				35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */,
-				20D54DF378549A39A73417FAF2E3C2A5 /* Products */,
+				E229B018274A070FF07D21BF450E7643 /* Products */,
 				A660871EBD264A6465EE0EDA1AE64FBF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -845,7 +804,7 @@
 			isa = PBXGroup;
 			children = (
 				84F9AA17CBC8F60CFEE56BF709B28BF0 /* Tango */,
-				6D6122C1192982EB0C2669A6BD490A17 /* TangoRichNotification */,
+				46A780E54D6069DEFB51078C0545778A /* TangoRichNotification */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -878,17 +837,6 @@
 			);
 			name = Tango;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		88F859BCE757FEEAF40D17ED3EE3E926 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				5167D3611F975B9C00379FAD /* Tango.xcdatamodeld */,
-				D0A25CAAFB5863A81176C78BB63EF671 /* close.png */,
-				90A3D714EE17919E9033A94C41C91458 /* close@2x.png */,
-				8F0EF8F4D1D65CDA0C90D5C7D41B2133 /* close@3x.png */,
-			);
-			path = Assets;
 			sourceTree = "<group>";
 		};
 		92FCAA6370BC80CBD084286133845916 /* Utils */ = {
@@ -1018,6 +966,20 @@
 			path = TangoRichNotification;
 			sourceTree = "<group>";
 		};
+		CBD502A5147C34DCC612536A8A383BE0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C660145D8CF83FF7C3D28466F8883A90 /* TangoRichNotification.h */,
+				EA0FF072E5361A7F9B935CBBDA3B383B /* TangoRichNotification.swift */,
+				AC5D1A2CD4D8AEFBEE5D0A34AF9AB783 /* TANMediaModel.swift */,
+				7086240C84FF618DBF6F6A4D0EBF8925 /* TANNotificationAttachment.swift */,
+				EBA50E6D9692649CE25B687910D8A224 /* TANNotificationCategory.swift */,
+				D025C7157C00FF6BFB40FD7C314FCBDB /* TANPNEvent.swift */,
+				5833910569204639880245D7403D6EB8 /* Utils.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		D12AEC147B6B3D341103C0F178110DA4 /* Pods-Tango_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -1034,6 +996,20 @@
 			);
 			name = "Pods-Tango_Tests";
 			path = "Target Support Files/Pods-Tango_Tests";
+			sourceTree = "<group>";
+		};
+		E229B018274A070FF07D21BF450E7643 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC488D0A31DE5F0857669F942D323861 /* Alamofire.framework */,
+				657EF7D440BD9D11092ADB442E579157 /* Pods_Tango_Example.framework */,
+				6EA9D21FF062F1F5FB8DDBE64145F663 /* Pods_Tango_Example_Rich_Notification.framework */,
+				431EAB55F81CFD5E30B0C3C3025435AA /* Pods_Tango_Tests.framework */,
+				9B900AA62D7701E9F0C592CA330D1FA6 /* Tango.bundle */,
+				CAE01C3CD726700EB0DB640D29FC52ED /* Tango.framework */,
+				BC7EAF7520DC36173C3749C377D7A9AD /* TangoRichNotification.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		E4AB4FA4FEF9CA860B7412CA1CDC7AF0 /* CoreData */ = {
@@ -1054,6 +1030,14 @@
 			path = Presentation;
 			sourceTree = "<group>";
 		};
+		F1626AA106905E16C622B5BE0B9E2A16 /* TangoRichNotification */ = {
+			isa = PBXGroup;
+			children = (
+				CBD502A5147C34DCC612536A8A383BE0 /* Classes */,
+			);
+			path = TangoRichNotification;
+			sourceTree = "<group>";
+		};
 		FA2E550B7CD468208E95E79BAA38CC09 /* Business */ = {
 			isa = PBXGroup;
 			children = (
@@ -1066,7 +1050,7 @@
 		FA9F0177B64E3C5B3E464F8A36A5D54A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0779B3C8B19ED2D2595B884CA017D5B7 /* Tango */,
+				7302617BFB57AF1EB1A0C9A9A5A6FB01 /* Tango */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1144,7 +1128,7 @@
 			);
 			name = Tango;
 			productName = Tango;
-			productReference = BC23C497B995815FFC0BA3D06A6F43F6 /* Tango.framework */;
+			productReference = CAE01C3CD726700EB0DB640D29FC52ED /* Tango.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		223477BFA6AA6536040DED73B0707FF8 /* Pods-Tango_Example_Rich_Notification */ = {
@@ -1162,7 +1146,7 @@
 			);
 			name = "Pods-Tango_Example_Rich_Notification";
 			productName = "Pods-Tango_Example_Rich_Notification";
-			productReference = BFC37781E38270321B9ABB0B97E8018A /* Pods_Tango_Example_Rich_Notification.framework */;
+			productReference = 6EA9D21FF062F1F5FB8DDBE64145F663 /* Pods_Tango_Example_Rich_Notification.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		4014472F680C501C683CE800A42844DB /* Tango-Tango */ = {
@@ -1171,7 +1155,7 @@
 			buildPhases = (
 				01A56746D6C9C14AC9B821D88DF7A72F /* Sources */,
 				2F4028FB1E3F402173FD600B13D24C48 /* Frameworks */,
-				78167966C5BC4760E2A759AA4F3F5EC6 /* Resources */,
+				B897A8B6CDC73FCDD7309F04D9D6739B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1179,24 +1163,7 @@
 			);
 			name = "Tango-Tango";
 			productName = "Tango-Tango";
-			productReference = F8A5E2DB2485E4C8581255F8D22650F1 /* Tango.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		55D97B6AFEAC28DC8CDB4703C7496B82 /* TangoRichNotification-Tango */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C08BF0BF0688B9D9F6DFD0192EA1AD61 /* Build configuration list for PBXNativeTarget "TangoRichNotification-Tango" */;
-			buildPhases = (
-				78072D13AE7C9CC17B929A4DC3F76A4D /* Sources */,
-				E4BB804D977D070A53B77239F79AD321 /* Frameworks */,
-				B17C609255AD87B0FAC549E7BD0A6E4E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "TangoRichNotification-Tango";
-			productName = "TangoRichNotification-Tango";
-			productReference = F8A5E2DB2485E4C8581255F8D22650F1 /* Tango.bundle */;
+			productReference = 9B900AA62D7701E9F0C592CA330D1FA6 /* Tango.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		80E3DB1907BCD37B8F0539C16AF002BC /* Pods-Tango_Example */ = {
@@ -1216,7 +1183,7 @@
 			);
 			name = "Pods-Tango_Example";
 			productName = "Pods-Tango_Example";
-			productReference = 9B6A0D80C2C601EB92023D1C65FBEE33 /* Pods_Tango_Example.framework */;
+			productReference = 657EF7D440BD9D11092ADB442E579157 /* Pods_Tango_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -1233,7 +1200,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 18D3B31CB27CF96DE21DB622CC2650D6 /* Alamofire.framework */;
+			productReference = AC488D0A31DE5F0857669F942D323861 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		98783B8843916973E7ED9E59E6C64918 /* Pods-Tango_Tests */ = {
@@ -1250,7 +1217,7 @@
 			);
 			name = "Pods-Tango_Tests";
 			productName = "Pods-Tango_Tests";
-			productReference = 175C5A07E61319183D002086BFBD5302 /* Pods_Tango_Tests.framework */;
+			productReference = 431EAB55F81CFD5E30B0C3C3025435AA /* Pods_Tango_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B25EBBC0408B8333C05F1D6CA044C255 /* TangoRichNotification */ = {
@@ -1259,17 +1226,15 @@
 			buildPhases = (
 				CE7F0A87F8E1920CDE999EA74482655A /* Sources */,
 				9675EE33D955BB8FE26CDE21431E2203 /* Frameworks */,
-				63164566B9A2EBC8DB802B46E7827AA1 /* Resources */,
 				749C60DFB2EC5C7F3D1254F9E2FFC2BA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2247A7937AB22F8B16A7E72AB20913FF /* PBXTargetDependency */,
 			);
 			name = TangoRichNotification;
 			productName = TangoRichNotification;
-			productReference = 34B6C506824B825DCB554DAEFD8DB52D /* TangoRichNotification.framework */;
+			productReference = BC7EAF7520DC36173C3749C377D7A9AD /* TangoRichNotification.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1279,7 +1244,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1289,7 +1254,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 20D54DF378549A39A73417FAF2E3C2A5 /* Products */;
+			productRefGroup = E229B018274A070FF07D21BF450E7643 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -1300,7 +1265,6 @@
 				0893AE6ABB42521A476966C0F38E7C77 /* Tango */,
 				4014472F680C501C683CE800A42844DB /* Tango-Tango */,
 				B25EBBC0408B8333C05F1D6CA044C255 /* TangoRichNotification */,
-				55D97B6AFEAC28DC8CDB4703C7496B82 /* TangoRichNotification-Tango */,
 			);
 		};
 /* End PBXProject section */
@@ -1314,28 +1278,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63164566B9A2EBC8DB802B46E7827AA1 /* Resources */ = {
+		B897A8B6CDC73FCDD7309F04D9D6739B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CC89DDC07E94D27A89A0EA904E20E91 /* Tango.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78167966C5BC4760E2A759AA4F3F5EC6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CAA52EFA837471BD98BB6DEEE242DE88 /* close.png in Resources */,
-				42F5F62FF6A81EC1EBC057D04057EFDD /* close@2x.png in Resources */,
-				1DF1B118CFC1FAD1F26E994FCF60B296 /* close@3x.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B17C609255AD87B0FAC549E7BD0A6E4E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BA5986FEC7E9A22DE899E1788AEFEEDD /* close.png in Resources */,
+				59C343A580FF3D0265982D39AED2B6EA /* close@2x.png in Resources */,
+				4EBF8C25DE79A056C9A920A17C3165BE /* close@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1487,16 +1436,10 @@
 				D2EEE8E53973913913F741007469CD75 /* TANTag.swift in Sources */,
 				A1FA7218FE3985401234D3A88E91A89B /* TANTangoRichNotification.swift in Sources */,
 				1111EC1CAB931AD129813A8C217CB249 /* TANTangoService.swift in Sources */,
+				5192ED9D1F9761CF0009E817 /* Tango.xcdatamodeld in Sources */,
 				A378D645ED455CC0EB0651EE1D046DFC /* TANTangoUtils.swift in Sources */,
 				F6F6FB3098DFDFFC863DAC6F7A3BA746 /* TypeExtensions.swift in Sources */,
 				27A380EC30EBDC800BE33B1C0A23B894 /* Utils.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78072D13AE7C9CC17B929A4DC3F76A4D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1530,12 +1473,6 @@
 			name = Tango;
 			target = 0893AE6ABB42521A476966C0F38E7C77 /* Tango */;
 			targetProxy = 4B3B2CE4A5CECE793A14C689B90B786A /* PBXContainerItemProxy */;
-		};
-		2247A7937AB22F8B16A7E72AB20913FF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "TangoRichNotification-Tango";
-			target = 55D97B6AFEAC28DC8CDB4703C7496B82 /* TangoRichNotification-Tango */;
-			targetProxy = 79F2D66F45BEB959B5FBB6DB81207A97 /* PBXContainerItemProxy */;
 		};
 		253A93EC31B098311536DA44C8E488C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1572,7 +1509,7 @@
 /* Begin XCBuildConfiguration section */
 		1020B544C2990CA784ED813CA7514EC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACB29DAF4D061840447F7F02E30C6B5F /* TangoRichNotification.xcconfig */;
+			baseConfigurationReference = 406DC4FB3DC8481489765E9C325DB85E /* TangoRichNotification.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1652,9 +1589,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1662,20 +1597,14 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -1689,26 +1618,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		38B9AEE9A9B2444F0F77B1E80A5EAD8C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACB29DAF4D061840447F7F02E30C6B5F /* TangoRichNotification.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TangoRichNotification";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/TangoRichNotification/ResourceBundle-Tango-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				PRODUCT_NAME = Tango;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1852,9 +1763,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1862,21 +1771,15 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -1974,7 +1877,7 @@
 		};
 		BBE6DC02149817D0CF75E93779CD3EFE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACB29DAF4D061840447F7F02E30C6B5F /* TangoRichNotification.xcconfig */;
+			baseConfigurationReference = 406DC4FB3DC8481489765E9C325DB85E /* TangoRichNotification.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -2167,23 +2070,6 @@
 			};
 			name = Release;
 		};
-		E72C813CAC651DC288A9DDFB18B2332B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACB29DAF4D061840447F7F02E30C6B5F /* TangoRichNotification.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TangoRichNotification";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/TangoRichNotification/ResourceBundle-Tango-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				PRODUCT_NAME = Tango;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2219,15 +2105,6 @@
 			buildConfigurations = (
 				1020B544C2990CA784ED813CA7514EC1 /* Debug */,
 				BBE6DC02149817D0CF75E93779CD3EFE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C08BF0BF0688B9D9F6DFD0192EA1AD61 /* Build configuration list for PBXNativeTarget "TangoRichNotification-Tango" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E72C813CAC651DC288A9DDFB18B2332B /* Debug */,
-				38B9AEE9A9B2444F0F77B1E80A5EAD8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2271,12 +2148,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		5167D3611F975B9C00379FAD /* Tango.xcdatamodeld */ = {
+		A2A2A20598468F28E08CA9D8DA38F970 /* Tango.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				5167D3621F975B9C00379FAD /* Tango.xcdatamodel */,
+				F69482EFDAFAF021D33607B9CD1A472E /* Tango.xcdatamodel */,
 			);
-			currentVersion = 5167D3621F975B9C00379FAD /* Tango.xcdatamodel */;
+			currentVersion = F69482EFDAFAF021D33607B9CD1A472E /* Tango.xcdatamodel */;
 			path = Tango.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
