@@ -48,13 +48,14 @@
 		483E7CA9C0211B3B9085B5D03F9294F8 /* Pods-Tango_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B2887F23E2E0715FE1D3BE57BE8457 /* Pods-Tango_Tests-dummy.m */; };
 		4C253D9D7CFC64997A3D937EC4DCA33F /* TANAlamofireService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D95AE98AA9C8B56D803F899170239 /* TANAlamofireService.swift */; };
 		4E1FA93FBABB52CD42E2924240D97ED6 /* TANCampaignDateParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8700AF14D0842D8FC053FE37D797D2CB /* TANCampaignDateParser.swift */; };
-		4EBF8C25DE79A056C9A920A17C3165BE /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B06437CC7F12B5CC8F13B68F92EB54 /* close@3x.png */; };
+		514442171F976C4D005DD2B1 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 132F1A6693942B903140D59B74E8A017 /* close.png */; };
+		514442181F976C4D005DD2B1 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107F2521F85A5557D8CF2272D1AEBEDE /* close@2x.png */; };
+		514442191F976C4D005DD2B1 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 16B06437CC7F12B5CC8F13B68F92EB54 /* close@3x.png */; };
 		5192ED9D1F9761CF0009E817 /* Tango.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2A2A20598468F28E08CA9D8DA38F970 /* Tango.xcdatamodeld */; };
 		5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E230A0448B394DE26E688DAC8E6201E /* Request.swift */; };
 		556C5C0EF92A715FF63AD4566F577B76 /* TANCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E7C77D2CE7D45A5969F48CB8F59277 /* TANCoreDataStack.swift */; };
 		57E4DD4DA3196FE1B4C63497F27B80F2 /* CampaignSpecificDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8B2F2020BB16EDA17962380C42C383 /* CampaignSpecificDate.swift */; };
 		58071D53FD9C6C87849A14C45315E619 /* CampaignSpecificsKeywords+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7043D3B51EFA80246A77028E3D35B /* CampaignSpecificsKeywords+CoreDataProperties.swift */; };
-		59C343A580FF3D0265982D39AED2B6EA /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 107F2521F85A5557D8CF2272D1AEBEDE /* close@2x.png */; };
 		5A96459C8E6F3ACF648C20BE2A34CCF3 /* CampaignScheduler+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 905277F47501EBD5097A21B7438DFA5B /* CampaignScheduler+CoreDataProperties.swift */; };
 		5AD0A1EB138EA7D6FF1CA76F5CC7FAFB /* TANEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463C044CC617A51DA40844413B6EC9A5 /* TANEvents.swift */; };
 		5C0876E9806A0EE88CD141F1E7EFCB36 /* CampaignDate+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA4E7E8F1D839F2721A0287FBC7D5B64 /* CampaignDate+CoreDataProperties.swift */; };
@@ -114,7 +115,6 @@
 		B2008D3EFCDBF86349DD244C03B4E6D2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 419B29A53FE8572965E496745FBBD6F2 /* SystemConfiguration.framework */; };
 		B65FCF589DA398C3EFE0128064E510EC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155538D91ACEEEDF82069ACF6C1A02E7 /* MultipartFormData.swift */; };
 		B8C121E654727646A535F1C13C62C39E /* TANMediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE13AD33AE6460278D5E2EC49D2692C /* TANMediaModel.swift */; };
-		BA5986FEC7E9A22DE899E1788AEFEEDD /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 132F1A6693942B903140D59B74E8A017 /* close.png */; };
 		BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B029DBC43E49A740F12B5E4D2E6DD452 /* Validation.swift */; };
 		BDDECCE3E5C95E17E507B96270DBE2B0 /* CampaignEvent+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B561761EB7D15C9BB0C73364C10CBA1 /* CampaignEvent+CoreDataProperties.swift */; };
 		BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6639346628280A0D0FAD35196BF56108 /* ParameterEncoding.swift */; };
@@ -1274,6 +1274,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				514442191F976C4D005DD2B1 /* close@3x.png in Resources */,
+				514442181F976C4D005DD2B1 /* close@2x.png in Resources */,
+				514442171F976C4D005DD2B1 /* close.png in Resources */,
 				95C5ED2F92366328E52531A1CBBAA8D7 /* Tango.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1282,9 +1285,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA5986FEC7E9A22DE899E1788AEFEEDD /* close.png in Resources */,
-				59C343A580FF3D0265982D39AED2B6EA /* close@2x.png in Resources */,
-				4EBF8C25DE79A056C9A920A17C3165BE /* close@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

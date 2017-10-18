@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TangoRichNotification'
-  s.version          = '1.0.9'
+  s.version          = '1.0.10'
   s.summary          = 'This is the Tango Targeting Rich Notification extension for Mobile Marketing Automation.'
 
 # This description is used to generate tags and improve search results.
