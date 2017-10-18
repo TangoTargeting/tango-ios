@@ -104,6 +104,7 @@ extension UIDevice {
 
 let kLimitAdvertiseID = "00000000-0000-0000-0000-000000000000"
 
+#if swift(>=4.0)
 internal func registeredID() -> String {
     var registeredID: String = ""
     if let uid = UIDevice.current.identifierForVendor?.uuidString {
@@ -119,4 +120,22 @@ internal func registeredID() -> String {
     
     return registeredID
 }
+#else
+internal func registeredID() -> String {
+    var registeredID: String = ""
+    if let uid = UIDevice.current.identifierForVendor?.uuidString {
+        registeredID = uid
+    }
+    let advertiseID = ASIdentifierManager.shared().advertisingIdentifier
+    if ASIdentifierManager.shared().isAdvertisingTrackingEnabled == true {
+        if let advertiseID = advertiseID {
+            if advertiseID.uuidString != kLimitAdvertiseID {
+                registeredID = advertiseID.uuidString
+            }
+        }
+    }
+    
+    return registeredID
+}
+#endif
 

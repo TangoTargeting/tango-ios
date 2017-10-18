@@ -39,8 +39,13 @@ func maxAvailableDistance(distances: [CLLocationDistance]) -> CLLocationDistance
 // Identifier format: campaignId|| Components:..blabla
 func campaignForRegionIdentifier(identifier: String) -> Campaign? {
     guard let separatorRange = identifier.range(of: regionIdentifierDelimitator) else { return nil }
-//        let campaignID = identifier.substring(with: Range<String.Index>.init(uncheckedBounds: (lower: identifier.startIndex, upper: separatorRange.lowerBound)))
+    
+    #if swift(>=4.0)
     let campaignID = String(identifier[..<separatorRange.lowerBound])
+    #else
+    let campaignID = identifier.substring(with: Range<String.Index>.init(uncheckedBounds: (lower: identifier.startIndex, upper: separatorRange.lowerBound)))
+    #endif
+    
     return TANPersistanceManager.sharedInstance.campaignDBManager.fetchCampaign(campaignID: campaignID)
 }
 
