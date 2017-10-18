@@ -9,3 +9,7 @@ target 'Tango_Example' do
     
   end
 end
+
+target 'Tango_Example_Rich_Notification' do
+  pod 'TangoRichNotification', :path => '../'
+end
