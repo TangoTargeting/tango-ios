@@ -11,7 +11,7 @@ import Alamofire
 
 #if DEBUG
 //    private let kTangoBaseUrl = "http://192.168.1.73:3000/v4"
-    private let kTangoBaseUrl = "https://api-dev.tangotargeting.com/v4"
+    private let kTangoBaseUrl = "https://api.tangotargeting.com/v4"
 #else
     private let kTangoBaseUrl = "https://api.tangotargeting.com/v4"
 #endif
