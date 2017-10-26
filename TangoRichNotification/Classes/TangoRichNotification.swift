@@ -34,8 +34,8 @@ typealias JSONDictionary = [AnyHashable: Any]
 typealias  MediaSummary = (url: String, type: MediaType)
 
 @available(iOS 10.0, *)
-public class TangoRichNotification {
-    public class func setupRichContent(content: UNMutableNotificationContent,
+@objc public class TangoRichNotification {
+    @objc public class func setupRichContent(content: UNMutableNotificationContent,
                                         apiKey: String,
                                        completionHandler: @escaping(UNNotificationContent) -> Void) {
         TangoRichNotification().tangoRichContent(content: content, apiKey: apiKey, completionHandler: completionHandler)

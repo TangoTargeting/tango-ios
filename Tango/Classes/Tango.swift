@@ -33,18 +33,19 @@ public class Tango: NSObject {
     }
     
     /// Call this method only for versions of os smaller than 10.0
+    @objc
     public class func application(_ application: UIApplication, didRegister notificationSettings: UIUserNotificationSettings) {
         PushNotification.application(application, didRegister: notificationSettings)
     }
-    
+    @objc
     public class func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         PushNotification.application(application, didRegisterForRemoteNotificationsWithDeviceToken: deviceToken)
     }
-    
+    @objc
     public class func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
         PushNotification.application(application, didFailToRegisterForRemoteNotificationsWithError: error)
     }
-    
+    @objc
     public class func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
         TANTangoService.sharedInstance.application(application, didReceiveRemoteNotification: userInfo)
     }
@@ -54,6 +55,7 @@ public class Tango: NSObject {
     - Parameters:
         - key: the string that you defined as a triggerKey when you created the campaign.
      */
+    @objc
     public class func trigger(key: String) {
         CustomTrigger.trigger(triggerKey: key)
     }
