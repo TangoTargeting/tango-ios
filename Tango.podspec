@@ -33,9 +33,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Tango/Classes/**/*'
   s.documentation_url = 'https://tangotargeting.github.io/tango-documentation/developer-guide/ios/installation/'
   
-  s.resource_bundles = {
-    'Tango' => ['Tango/Assets/*.png', 'Tango/Assets/*.xcdatamodeld']
-  }
+  s.resources = 'Tango/Assets/**/*'
 
   s.public_header_files = 'Tango/Classes/**/*.h'
   s.frameworks   = 'SystemConfiguration', 'UIKit', 'CoreGraphics', 'CoreLocation'
